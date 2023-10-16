@@ -1,10 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-@import url('https://fonts.cdnfonts.com/css/vonder-clean');
+@font-face {
+    font-family: 'Vonder Clean Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Vonder Clean Regular'), url('font/Vonder\ Clean.woff') format('woff');
+    }
 
 .background-img {
     position: fixed;
@@ -60,7 +67,7 @@ nav ul {
     cursor: pointer;
     justify-content: space-between;
     flex-direction: row;
-
+    transition: 1s;
 }
 
 .nav-logo h1 {
