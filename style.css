@@ -10,7 +10,7 @@
     font-family: 'Vonder Clean Regular';
     font-style: normal;
     font-weight: normal;
-    src: local('Vonder Clean Regular'), url('font/Vonder\ Clean.woff') format('woff');
+    src: url('font/VonderClean.otf') format('opentype'), url(font/VonderClean.ttf) format('truetype');
     }
 
 .background-img {
