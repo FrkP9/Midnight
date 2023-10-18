@@ -6,12 +6,26 @@
 
 @font-face {
     font-family: Vonder_Clean;
-    src: url(./VonderClean.ttf);
+    src: url(font/VonderClean.ttf);
 }
 
 @font-face {
-  font-family: Raleway;
-  src: url(./Raleway-VariableFont_wght.ttf);
+    font-family: Raleway;
+    src: url(./Raleway-VariableFont_wght.ttf);
+}
+
+#work-h1 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#work-div {
+    margin-top: 20rem;
+    display: grid;
+    place-items: center;
+    gap: 15px;
 }
 
 .background-img {
@@ -25,11 +39,13 @@
 }
 
 nav {
+    width: 80rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    margin-top: 1rem;
+    margin: 2rem auto;
+
 }
 
 nav ul li a {
@@ -75,7 +91,7 @@ nav ul {
     font-size: 2rem;
     flex-shrink: 0;
     color: white;
-    font-family: Vonder_Clean;
+    font-family: 'Vonder Clean', sans-serif;
     text-decoration: none;
 }
 
@@ -100,11 +116,12 @@ nav ul {
 .container img {
     width: 188px;
     height: 188px;
-    
+
 }
 
 .container h1 {
     color: white;
+    font-family: 'Vonder Clean Regular';
     font-family: Vonder_Clean;
     font-size: 9rem;
     font-weight: 400;
@@ -118,7 +135,7 @@ nav ul {
     font-weight: 100;
     line-height: normal;
     display: inline;
-   
+
 }
 
 .content {
@@ -138,3 +155,166 @@ nav ul {
 .musica {
     display: none;
 }
+
+
+.recipes {
+    width: 80rem;
+/* BORDA DOS DOIS CARDS JUNTOS */
+    /* border: 1px solid gray; */
+    margin: 10rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cafe {
+    height: 31rem;
+    width: 30rem;
+    border-radius: 73px;
+    background: white;
+    display: grid;
+    padding: 1rem;
+
+    background: rgba(171, 110, 80, 0.0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 25);
+    backdrop-filter: blur(8.7px);
+    -webkit-backdrop-filter: blur(8.7px);
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    gap: 1rem;
+    
+    transition: 1s;
+    /* filter: brightness(50%); */
+
+}
+
+.cafe a{
+    text-decoration: none;
+
+}
+
+.cafe:hover {
+    background: rgba(255, 255, 255, .1);
+    transition: 1s;
+    filter: brightness(100%);
+
+}
+
+
+#cafe-img {
+    width: 23rem;
+    height: 23rem;
+    border-radius: 73px;
+    background: #EF0A0A;
+    /* ###########OVERFLOW########################### */
+    overflow: hidden;
+    margin: 10px auto;
+    
+}
+
+#cafe-img img {
+    position: relative;
+    bottom: 10rem;
+    right: 30px;
+    /* width: 32rem; */
+    height: 38.298rem;
+    filter: brightness(95%);
+    transition: 1s;
+   
+}
+
+#cafe-img img:hover{
+    filter: brightness(115%);
+    transition: 1s;
+
+}
+
+.cafe h1 {
+   font-size: 3rem;
+   font-weight: 500;
+    text-align: center;
+    font-family: 'Vonder Clean Regular';
+    font-family: Vonder_Clean;
+    color: white;
+    transition: 1s;
+    filter: drop-shadow(1px 1px 3px #0000007e);
+}
+
+.cafe h1:hover {
+    cursor: pointer;
+    transition: 1s;
+    filter: drop-shadow(10px 7px 4px #00000091);
+
+}
+
+.tea {
+    height: 31rem;
+    width: 30rem;
+    border-radius: 73px;
+    background: white;
+    display: grid;
+    padding: 1rem;
+    background: rgba(171, 110, 80, 0.0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 25);
+    backdrop-filter: blur(8.7px);
+    -webkit-backdrop-filter: blur(8.7px);
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    gap: 1rem;
+    transform: 1s;
+}
+
+.tea a{
+    text-decoration: none;
+}
+
+#tea-img {
+    width: 23rem;
+    height: 23rem;
+    border-radius: 73px;
+    background: #EF0A0A;
+    /* #################OVERFLOW################## */
+    overflow: hidden;
+    margin: 10px auto;
+}
+
+#tea-img img {
+    height: 23rem;
+    position: relative;
+    /* bottom: 10rem; */
+    /* right: 30px; */
+    /* width: 32rem; */
+    filter: brightness(95%);
+    transition: 1s;
+}
+
+#tea-img img:hover {
+    filter: brightness(115%);
+    transition: 1s;
+}
+
+.tea h1 {
+    font-size: 3rem;
+    font-weight: 500;
+     text-align: center;
+     font-family: 'Vonder Clean Regular';
+     font-family: Vonder_Clean;
+     color: white;
+     transition: 1s;
+     filter: drop-shadow(1px 1px 3px #0000007e);
+     
+ }
+
+ .tea h1:hover {
+    cursor: pointer;
+    transition: 1s;
+    filter: drop-shadow(10px 7px 4px #00000091);
+
+}
+
+.tea:hover {
+    background: rgba(255, 255, 255, .1);
+    transition: 1s;
+
+}
+
+
