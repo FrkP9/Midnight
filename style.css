@@ -54,6 +54,7 @@ nav {
     position: absolute;
     margin-left: 11rem;
     margin-bottom: .5rem;
+    cursor: pointer;
 }
 
 #play-image:hover {
@@ -62,6 +63,7 @@ nav {
 }
 
 #pause-image {
+    cursor: pointer;
     width: 2rem;
     position: absolute;
     margin-left: 11rem;

@@ -13,6 +13,15 @@
 </head>
 
 <body>
+
+    <video id="video-bg" poster="img/poster.jpg" loop>
+        <source src="img/video.mp4" type="video/mp4">
+    </video>
+
+    <audio id="background-audio" controls loop>
+        <source src="msc/msc01.mp3" type="audio/mpeg">
+    </audio>
+
     <img src="img/bg.jpg" alt="" class="background-img">
     <nav>
         <div class="nav-logo">
@@ -21,6 +30,9 @@
                 <h1>Midnight</h1>
             </a>
         </div>
+
+        <img id="play-image" src="img/play.png" alt="Play">
+        <img id="pause-image" src="img/pause.png" alt="Pause" style="display: none;">
 
         <ul>
             <li><a href="index.html">HOME</a></li>
