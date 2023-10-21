@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>Midnight - Aromas e Sabores</title> -->
+    <title id="animated-title">Midnight - Aromas e Sabores</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preload" as="font" href="./VonderClean.ttf" type="font/ttf" crossorigin>
+    <link rel="preload" as="font" href="./Raleway-VariableFont_wght.ttf" type="font/ttf" crossorigin>
+    <link rel="icon" type="image/x-icon" href="img/LOGO.png">
+
+    <style>
+        a {
+            text-decoration: none;
+            color: #AB6E50;
+        }
+    </style>
+
+</head>
+
+<body>
+    <video id="video-bg" poster="img/poster.jpg" loop>
+        <source src="img/video.mp4" type="video/mp4">
+    </video>
+
+    <audio id="background-audio" controls loop>
+        <source src="msc/msc01.mp3" type="audio/mpeg">
+    </audio>
+    
+    <!-- Background -->
+    <img src="img/bg2.jpg" alt="" class="background-img" id="bg2">
+
+    <nav>
+        <div class="nav-logo">
+            <a href="index.html"><img src="img/LOGO.png" alt=""> </a>
+            <a href="index.html">
+                <h1>Midnight</h1>
+            </a>
+        </div>
+
+        <img id="play-image" src="img/play.png" alt="Play">
+        <img id="pause-image" src="img/pause.png" alt="Pause" style="display: none;">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="recipes.html">RECEITAS</a></li>
+            <li><a href="work.html">GALERIA</a></li>
+        </ul>
+    </nav>
+
+
+    <img src="img/GRAOS.png" alt="" id="graos">
+
+
+    <div class="coffee-container">
+        <img src="img/PRANCHETA-COFFEE.png" alt="">
+        <div class="coffe-container-text">
+            <div class="coluna1">
+                <a href="coffees/cappuccino.html"><h1>Cappuccino*</h1></a>
+                <a href="coffees/latte-macchiato.html"><h1>Latte Machiato*</h1></a>
+                <h1>Americano</h1>
+                <h1>Mocha</h1>
+                <h1>Macchiato</h1>
+            </div>
+            <div class="coluna2">
+                <h1>Ristretto</h1>
+                <h1>Affogato</h1>
+                <h1>Turco</h1>
+                <h1>Vienense</h1>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+    <!-- Whatsapp -->
+    <div class="box-html-recipes">
+        <a href="https://wa.me/5575998701108?text=Ol%C3%A1%2C+Pablo%21+tudo+bem%3F+Estou+entrando+em+contato+por+meio+do+seu+portf%C3%B3lio."
+            target="_blank">
+            <img src="img/whatsapp.png" alt="">
+        </a>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

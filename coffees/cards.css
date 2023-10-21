@@ -1,0 +1,117 @@
+*,
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.box-html {
+    position: absolute;
+    float: right;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 2rem;
+
+}
+
+.card {
+    width: 35rem;
+    height: 45rem;
+    flex-shrink: 0;
+    border-radius: 56px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.3rem;
+    /* border: 1px solid blue; */
+
+
+}
+
+
+.card-img {
+    width: 25rem;
+    height: 30rem;
+    overflow: hidden;
+    background: red;
+    margin: 3rem auto;
+    border-radius: 56px;
+    position: relative;
+    /* border: 1px solid blue; */
+}
+
+.card-img ul {
+    height: 30rem;
+    padding: 1rem;
+    list-style: none;
+    margin-top: 2rem;
+    z-index: 200;
+    position: absolute;
+    color: white;
+    font-weight: 600;
+    font-family: Raleway;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    opacity: 0;
+    transition: 2s;
+
+}
+
+.card-img ul:hover {
+    opacity: 1;
+    transition: 1s;
+}
+
+.card-img img {
+    
+    height: auto;
+    position: absolute;
+    /* top: -3rem; */
+    /* border: 1px solid blue; */
+    transition: 2s;
+
+}
+
+.card-img ul:hover~img {
+    filter: brightness(40%);
+    transition: 1s;
+}
+
+
+.card h1 {
+    align-items: center;
+    text-align: center;
+    /* border: 1px solid blue; */
+
+    position: absolute;
+    margin: 34rem auto;
+    font-family: 'Vonder Clean', sans-serif;
+}
+
+.card p {
+    color: #AB6E51;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+    width: 500px;
+}
+
+#latte-macchiato {
+    top: -3rem;
+    width: 25rem;
+}
+
+#cappuccino {
+    width: 30rem;
+    left: -2rem;
+}
+
+#cappuccino-p {
+    margin-bottom: 2rem;
+}

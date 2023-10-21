@@ -59,7 +59,7 @@ nav {
 
 #play-image:hover {
     transition: 1s;
-    filter: drop-shadow(5px 5px 4px #b88065da); 
+    filter: drop-shadow(5px 5px 4px #b88065da);
 }
 
 #pause-image {
@@ -72,7 +72,7 @@ nav {
 
 #pause-image:hover {
     transition: 1s;
-    filter: drop-shadow(5px 5px 4px #b88065da); 
+    filter: drop-shadow(5px 5px 4px #b88065da);
 }
 
 
@@ -140,7 +140,7 @@ nav ul {
     align-items: center;
     margin: 140px auto;
     filter: drop-shadow(10px 7px 4px #251107b7);
-    
+
 }
 
 .container img {
@@ -171,7 +171,7 @@ nav ul {
 .content {
     display: grid;
     justify-items: end;
-    
+
 }
 
 .content p {
@@ -359,7 +359,7 @@ nav ul {
     animation-name: spin;
     animation-duration: 30000ms;
     animation-iteration-count: infinite;
-    animation-timing-function: linear; 
+    animation-timing-function: linear;
 }
 
 #logo-float img:hover {
@@ -384,30 +384,28 @@ nav ul {
     float: right;
     margin-right: 2.4rem;
     animation:
-      bounce 3000ms
-      alternate infinite
-      cubic-bezier(.2, .65, .6, 1);
-      overflow: hidden;
+        bounce 3000ms alternate infinite cubic-bezier(.2, .65, .6, 1);
+    overflow: hidden;
     transition: .8s;
 
-  }
+}
 
-  
 
-  .box img {
+
+.box img {
     max-width: 100%;
     width: 2.5rem;
     padding-bottom: .1rem;
     transition: .5s;
 
-  }
+}
 
-  .box:hover {
+.box:hover {
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 25);
     transition: .5s;
-  }
+}
 
-  .box-html {
+.box-html {
 
     width: 75px;
     height: 75px;
@@ -422,27 +420,62 @@ nav ul {
     margin-top: 5rem;
     margin-right: 2.4rem;
     animation:
-      bounce 3000ms
-      alternate infinite
-      cubic-bezier(.2, .65, .6, 1);
-      overflow: hidden;
+        bounce 3000ms alternate infinite cubic-bezier(.2, .65, .6, 1);
+    overflow: hidden;
     transition: .8s;
 
-  }
+}
 
-  .box-html img {
+.box-html img {
     max-width: 100%;
     width: 2.5rem;
     padding-bottom: .1rem;
-  }
+}
 
-  .box-html:hover {
+.box-html:hover {
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 25);
     transition: .5s;
-  }
+}
+
+.box-html-recipes {
+
+    width: 75px;
+    height: 75px;
+    background: rgb(255, 255, 255);
+    place-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+    margin-top: 5rem;
+    margin-right: 2.4rem;
+    margin-bottom: 1rem;
+    animation:
+        bounce 3000ms alternate infinite cubic-bezier(.2, .65, .6, 1);
+    overflow: hidden;
+
+    transition: .8s;
+    position: absolute;
+    z-index: 300;
+    right: 0;
+    bottom: 0;
+
+}
+
+.box-html-recipes img {
+    max-width: 100%;
+    width: 2.5rem;
+    padding-bottom: .1rem;
+}
+
+.box-html-recipes:hover {
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 25);
+    transition: .5s;
+}
 
 
-  #video-bg {
+#video-bg {
     position: absolute;
     right: 0;
     bottom: 0;
@@ -453,22 +486,94 @@ nav ul {
 
     height: 1080px;
     z-index: -1;
-   
-  }
 
-
+}
 
 #background-audio {
     display: none;
 }
 
+#bg2 {
+    filter: brightness(50%);
+}
+
+#graos {
+    position: absolute;
+    bottom: 0;
+    z-index: 100;
+}
+
+.coffee-container {
+    width: 624px;
+    margin: 0 auto;
+}
+
+.coffee-container img {
+    width: auto;
+    height: 55rem;
+    position: absolute;
+    top: 1rem;
+    filter: drop-shadow(10px 10px 4px #00000086);
+}
 
 
 
+.coffe-container-text {
+
+    display: flex;
+    justify-content: space-between;
+
+    color: #AB6E50;
+    z-index: 200;
+    position: absolute;
+    font-family: 'Vonder Clean', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin: 15rem auto;
+    margin-left: 4.7rem;
+    gap: 4rem;
+    transition: .5s;
+}
 
 
+.coluna1 {
+    display: grid;
+    gap: .5rem;
+    cursor: pointer;
+    transition: .5s;
+    position: fixed;
+}
 
+.coluna1 h1 {
+    transition: .5s;
+}
 
+.coluna1 h1:hover {
+    /* filter: drop-shadow(5px 5px 5px #0000004f); */
+    font-size: 2.5rem;
+    transition: .5s;
+    display: inline;
+}
+
+.coluna2 {
+    display: grid;
+    gap: .5rem;
+    position: fixed;
+    margin-left: 17rem;
+    /* text-align: right; */
+    cursor: pointer;
+}
+
+.coluna2 h1 {
+    transition: .5s;
+}
+
+.coluna2 h1:hover {
+    /* filter: drop-shadow(5px 5px 5px #0000004f); */
+    font-size: 2.5rem;
+    transition: .5s;
+    display: inline;
+}
 
 
 
@@ -486,9 +591,10 @@ nav ul {
 
 @keyframes bounce {
     from {
-      transform: translateY(0px);
+        transform: translateY(0px);
     }
+
     to {
-      transform: translateY(-20px);
+        transform: translateY(-20px);
     }
-  }
+}
