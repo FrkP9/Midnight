@@ -115,3 +115,56 @@ h1 {
 #cappuccino-p {
     margin-bottom: 2rem;
 }
+
+#americano {
+    width: 25rem;
+    top: -6rem;
+}
+
+#mocha {
+    width: 40rem;
+    top: -9em;
+    left: -8rem;
+}
+
+#macchiato {
+    width: 50rem;
+    left: -23rem;
+}
+
+#ristretto {
+    width: 45rem;
+    left: -10rem;
+}
+
+#affogato {
+    width: 45rem;
+    left: -9rem;
+}
+
+#ul-turco {
+    height: 10rem;
+    margin-top: .1rem;
+    font-size: 13px;
+    gap: 1px;
+}
+
+#turco {
+    width: 40rem;
+    bottom: -5rem;
+    left: -8rem;
+}
+/* #turco {
+    width: 40rem;
+    bottom: -7rem;
+} */
+
+#vienense {
+    width: 45rem;
+    left: -13rem;
+}
+
+#ul-vienense {
+    margin: 1rem;
+    font-size: 19px;
+}

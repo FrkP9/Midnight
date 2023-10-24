@@ -575,9 +575,47 @@ nav ul {
     display: inline;
 }
 
+.content-sobre {
+    text-align: center;
+}
 
+.content-sobre p{
+    font-size: 2rem;
+    font-weight: 500;
+}
 
+.content-sobre p span{
+    font-size: 1rem;
+}
 
+.content-sobre h1 {
+    font-size: 5rem;
+}
+
+.container-sobre {
+    width: 1000px;
+    height: 345px;
+    display: flex;
+    /* border: 1px solid red; */
+    flex-direction: column;
+    align-items: center;
+    margin: 140px auto;
+    filter: drop-shadow(10px 7px 4px #000000);
+}
+
+.container-sobre h1 {
+    color: white;
+    font-family: 'Vonder Clean Regular';
+    font-family: Vonder_Clean;
+    font-weight: 400;
+}
+
+.container-sobre p {
+    color: #FFF;
+    font-family: Raleway;
+    line-height: normal;
+    display: inline;
+}
 
 @keyframes spin {
     from {

@@ -14,7 +14,16 @@
 </head>
 
 <body>
-    <img src="img/bg.jpg" alt="" class="background-img">
+    <video id="video-bg" poster="img/poster.jpg" loop>
+        <source src="img/video.mp4" type="video/mp4">
+    </video>
+
+    <audio id="background-audio" controls loop>
+        <source src="msc/msc01.mp3" type="audio/mpeg">
+    </audio>
+        
+
+    <img src="img/bg2.jpg" alt="" class="background-img">
     <nav>
         <div class="nav-logo">
             <a href="index.html"><img src="img/LOGO.png" alt=""> </a>
@@ -23,18 +32,44 @@
             </a>
         </div>
 
+        <img id="play-image" src="img/play.png" alt="Play">
+        <img id="pause-image" src="img/pause.png" alt="Pause" style="display: none;">
         <ul>
             <li><a href="index.html">HOME</a></li>
             <li><a href="recipes.html">RECEITAS</a></li>
-            <li><a href="work.html">GALERIA</a></li>
+            <li><a href="work.html">SOBRE</a></li>
         </ul>
     </nav>
 
 
-    <div id="work-div">
-        <img src="img/work.png" alt="" width="200rem" margin: 0;>
-        <h1 id="work-h1">PÁGINA EM CONSTRUÇÃO</h1>
+    <div class="container-sobre">
+        <!-- <img src="img/LOGO.png" alt=""> -->
+        <div class="content-sobre">
+            <h1>Nota</h1>
+            <p>Olá a todos, sejam bem-vindos ao Midnight. Um pequeno acervo de cafés e chás. <br> <br>
+                Esse é o meu primeiro projeto, espero que tenham gostado do conteúdo. Pretendo trazer atualizações futuras mas no momento esse projeto
+                não é mais a prioridade.
+                <br><br>
+                Qualquer sugestão podem enviar via Whatsapp.
+                
+                Midnight <br><br>
+                <span><b>Criado em 16/10/2023
+                <br>
+                Lançado em 24/10/2023
+                <br>
+                Ultima atualização 24/10/2023</b></span></p>
+        </div>
+
     </div>
+
+
+    <div class="box-html">
+        <a href="https://wa.me/5575998701108?text=Ol%C3%A1%2C+Pablo%21+tudo+bem%3F+Estou+entrando+em+contato+por+meio+do+seu+portf%C3%B3lio."
+            target="_blank">
+            <img src="img/whatsapp.png" alt="">
+        </a>
+    </div>
+
 
 
     <script src="script.js"></script>
